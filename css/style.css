@@ -4,78 +4,45 @@
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
 }
-
-#navbar{
+#img-div{
     width: 100%;
-    padding: 5px 10px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-}
-#navbar a{
-    text-decoration: none;
-    font-family: poppins, sans-serif;
-    font-size: 20px;
-    padding: 0 20px 0 0;
-    color: #5c5c5c;
-}
-
-@media only screen and (max-width: 500px){
-	#navbar{
-        display: none;
-    }
-}
-#welcome-section{
-    width: 100%;
-    padding: 0 10%;
-    display: flex;
-    align-items: center; 
-    justify-content: flex-start;
-    height: 100vh;
-    flex-wrap: wrap;
-
-}
-
-#welcome-section h1{
-    width: 100%;
-
-}
-#projects{
-    width: 100%;
-    min-height: 60vh;
-    display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    justify-content: center;
-}
-
-#projects .projects-div{
-    display: flex;
-    width: 100%;
-    padding: 25px 10%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#projects .projects-div .project-tile{
-    width: 300px;
-    height: 350px;
-    background-color: #5c5c5c;
-    margin: 20px;
-}
-#contacts{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 200px;
-
-}
-#contacts a{
-    color: #5c5c5c;
-    margin: 0 20px;
-    font-size: 20px;
     
+}
+#image{
+    max-width: 70%;
+    height: auto;
+    /* position: absolute; */
+    z-index: 1;
+}
+#title, .text{
+    /* height: 200px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #b8b8b8;
+    margin-top: 50px;
+}
+.text{
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 100px;
+}
+h3{
+    margin-bottom: 15px;
+}
+.text-div{
+    width: 100%;
+    padding: 60px 14.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
